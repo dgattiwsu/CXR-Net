@@ -3,10 +3,15 @@
 CXR-Net: An Artificial Intelligence Pipeline for Quick Covid-19 Screening of Chest X-Rays 
 
 Haikal Abdulah 1,4, Benjamin Huber 1,4, Sinan Lal 1, Hassan Abdallah 3, Luigi L. Palese 4, Hamid Soltanian-Zadeh 5, Domenico L. Gatti 1,2
+
 1 Department of Biochemistry, Microbiology and Immunology, Wayne State Univ., Detroit, MI, USA 
+
 2 NanoBioScience Institute, Wayne State Univ., Detroit, MI, USA
+
 3 Department of Biostatistics, University of Michigan, Ann Arbor, MI, USA  
+
 4 Department of Basic Medical Sciences, Neurosciences and Sense Organs, Univ. of Bari Aldo Moro, Bari, Italy
+
 5 Departments of Radiology and Research Administration, Henry Ford Health System, Detroit, MI, USA 
 
 E-mail: dgatti@med.wayne.edu
