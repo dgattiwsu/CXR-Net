@@ -1,2 +1,14 @@
 # CXR-Net
+
 CXR-Net: An Artificial Intelligence Pipeline for Quick Covid-19 Screening of Chest X-Rays 
+
+Haikal Abdulah 1,4, Benjamin Huber 1,4, Sinan Lal 1, Hassan Abdallah 3, Luigi L. Palese 4, Hamid Soltanian-Zadeh 5, Domenico L. Gatti 1,2
+1 Department of Biochemistry, Microbiology and Immunology, Wayne State Univ., Detroit, MI, USA 
+2 NanoBioScience Institute, Wayne State Univ., Detroit, MI, USA
+3 Department of Biostatistics, University of Michigan, Ann Arbor, MI, USA  
+4 Department of Basic Medical Sciences, Neurosciences and Sense Organs, Univ. of Bari Aldo Moro, Bari, Italy
+5 Departments of Radiology and Research Administration, Henry Ford Health System, Detroit, MI, USA 
+
+E-mail: dgatti@med.wayne.edu
+
+CXR-Net is a two-module Artificial Intelligence pipeline for the quick detection of SARS-CoV-2 from Antero/Posterior (A/P) chest X-rays (CXRs). Module 1 was trained on a public dataset of 6395 A/P CXRs with radiologist annotated lung contours to generate masks of the lungs that overlap the heart and large vasa. Module II is a hybrid convnet in which the first convolutional layer with learned coefficients is replaced by a layer with fixed coefficients provided by the Wavelet Scattering Transform (WST). Module 2 takes as inputs the patients’ CXRs and corresponding lung masks calculated by Module I, and produces as outputs a class assignment (Covid vs. non-Covid) and high resolution heat maps that identify the SARS associated lung regions. Module 2 was trained on a dataset of CXRs from non-Covid and RT-PCR confirmed Covid patients acquired at the Henry Ford Health System (HFHS) Hospital in Detroit. All non-Covid CXRs were from pre-Covid era (2018-2019), and included images from both normal lungs and lungs affected by non-Covid pathologies. Training and test sets consisted of 2265 CXRs (1417 Covid –, 848 Covid +), and 1532 CXRs (945 Covid –, 587 Covid +), respectively. Six distinct cross-validation models with the same Covid +/– ratio, each trained on 1887 images and validated against 378 images, were combined into an ensemble model that was used to classify the CXR images of the test set with resulting Accuracy = 0.789, Precision = 0.739, Recall = 0.693, F1 score = 0.715, ROCAUC = 0.852.
