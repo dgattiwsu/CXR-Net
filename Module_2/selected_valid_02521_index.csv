@@ -1,0 +1,2 @@
+,Unnamed: 0.1,Image,Positive,Negative,Delta_days,PatientID,PatientAge,PatientOrientation,PatientSex,AccessionNumber,SeriesNumber,InstanceNumber,AcquisitionNumber,Modality,StudyDate,Rows,Columns,PixelSpacing,RowsColsRatio,ClassWeight,Occurs,FreqWeight,DeltaWeight,ClassFreqWeight,ClassFreqDeltaWeight
+791,1310,002130-004-1.png,1,0,12,2130,049Y,"['L', 'F']",F,002130-004,1,1,1.0,DX,20191224,2517,3028,"[0.139, 0.139]",0.8312417437252312,0.6252761820592134,1,1.0,1.12,0.6252761820592134,0.7003093239063191
