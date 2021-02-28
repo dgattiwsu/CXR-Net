@@ -24,6 +24,17 @@ CXR-Net is a two-module Artificial Intelligence pipeline for the quick detection
 
 The repository contains two folders, Module_1 and Module_2, with all the jupyter notebooks that were used for training and validation. There are only example images for inputs and outputs. The folder run_CXR-Net contains a jupyter notebook and additional folders that can be used to run the entire CXR-Net pipeline with the provided example image.
 
+
+For additional information e-mail to:
+
+Domenico Gatti
+
+Dept. Biochemistry, Microbiology, and Immunology, Wayne State University, Detroit, MI.
+
+E-mail: dgatti@med.wayne.edu
+
+website: http://veloce.med.wayne.edu/~gatti/
+
 Please, refer to the manuscript in ArXiv for additional information on how the JMS and V7 databases of CXRs with segmented lungs were generated. These databases are available on request from the corresponding author.
 
 The database of Covid negative and Covid positive CXRs used in this study is an exclusive property of the Henry Ford Health System in Detroit, and is not publicly available.
