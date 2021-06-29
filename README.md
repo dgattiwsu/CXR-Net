@@ -35,7 +35,7 @@ A brief medRxiv article describing the features of g-CXR-Net is available at htt
 ![image](https://user-images.githubusercontent.com/32550835/123811248-1191fd00-d8c1-11eb-8302-9514a6d7197b.png)
 
 
-Please, refer to the manuscript in ArXiv (arXiv:2103.00087) for additional information on how the JMS and V7 databases of CXRs with segmented lungs were generated. These databases are available on request from the corresponding author.
+Please, refer to the manuscript in ArXiv (https://arxiv.org/abs/2103.00087) for additional information on how the JMS and V7 databases of CXRs with segmented lungs were generated. These databases are available on request from the corresponding author.
 
 The database of Covid negative and Covid positive CXRs used in this study is an exclusive property of the Henry Ford Health System in Detroit, and is not publicly available.
 
