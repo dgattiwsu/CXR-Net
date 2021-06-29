@@ -26,7 +26,11 @@ The repository contains two folders, Module_1 and Module_2, with all the jupyter
 
 A Python script, Predict_new_patient.py, can be used to select from the command line both source/target directories, and, optionally, which dcm image files must be processed for covid/non-covid classification. 
 
-A GUI application, g-CXR-Net is available in a separate repository of dgattiwsu. 
+A GUI application, g-CXR-Net is available in a separate repository of dgattiwsu. A video describing the use of g-CXR-Net can be watched/downloaded at http://veloce.med.wayne.edu/~gatti/neural-networks/cxr-net.html.
+
+A brief medRxiv article describing the features of g-CXR-Net is available at https://medrxiv.org/cgi/content/short/2021.06.06.21258428v1, or by mobile device's via the QR code shown below:
+
+
 
 Please, refer to the manuscript in ArXiv for additional information on how the JMS and V7 databases of CXRs with segmented lungs were generated. These databases are available on request from the corresponding author.
 
