@@ -34,7 +34,7 @@ A GUI application, g-CXR-Net is available in a separate repository of dgattiwsu.
 
 A brief medRxiv article describing the features of g-CXR-Net is available at https://medrxiv.org/cgi/content/short/2021.06.06.21258428v1, or by mobile device's via the QR code shown below:
 
-![image](https://user-images.githubusercontent.com/32550835/123811248-1191fd00-d8c1-11eb-8302-9514a6d7197b.png)
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/32550835/123811248-1191fd00-d8c1-11eb-8302-9514a6d7197b.png">
 
 
 Please, refer to the manuscript in medrxiv (https://medrxiv.org/cgi/content/short/2022.03.13.22272311v1) for additional information on how the JMS and V7 databases of CXRs with segmented lungs were generated. These databases are available on request from the corresponding author.
